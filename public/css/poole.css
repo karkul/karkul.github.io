@@ -44,7 +44,7 @@ html {
 
 body {
   color: #4b505a;
-  font-size: 1.125rem;
+  font-size: 1em;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -52,7 +52,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #E21E79;
+  color: #2382c8;
   text-decoration: none;
 }
 a strong {
@@ -324,7 +324,9 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
+    #color: #db2c17;
     color: #E21E79;
+    text-decoration: none;
 }
 .page-title,
 .post-title {

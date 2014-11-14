@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Karkul's Blog
-tagline:          Just another simple blog
+title:            Karkul's Memories
+tagline:          Just another stupid karkul's blog
 url:              http://karkul.github.io
 paginate:         1
 baseurl:          /
