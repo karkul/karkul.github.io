@@ -281,6 +281,17 @@ tbody tr:nth-child(odd) th {
 }
 
 
+.footer {
+  color: #999;
+  font-size: 75%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.footer a {
+  color: #999;
+}
+
 /*
  * Masthead
  *
@@ -301,10 +312,9 @@ tbody tr:nth-child(odd) th {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 75%;
+  font-size: 85%;
   font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+  color: #999;
 }
 
 
@@ -324,8 +334,9 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
+    color: #333331;
     #color: #db2c17;
-    color: #E21E79;
+    #color: #E21E79;
     text-decoration: none;
 }
 .page-title,

@@ -8,3 +8,9 @@ tagline:          Just another stupid karkul's blog
 url:              http://karkul.github.io
 paginate:         1
 baseurl:          /
+author:
+  name:           Ramon Morales
+  url:            https://twitter.com/karkull
+  email:          karkul@gmail.com
+
+jekyllurl:        http://jekyllrb.com
