@@ -141,23 +141,22 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: #333;
   border-radius: 3px;
 }
 pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: .5rem;
   font-size: .8rem;
-  line-height: 1.4;
+  line-height: 1.2;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #e8e8e8;
+  border: 1px #dedede solid;
 }
 pre code {
   padding: 0;
