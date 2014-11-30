@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create a local repository (with group options) on RHEL 6.5
-tags: Linux, RHEL, How-to
+tags: [Linux, RHEL, How-to]
 ---
 
 This is an useful mini guide to create a RHEL local repository with package group support, the idea is to create a local repository in order to share it with other host on our local network principally for study cases or when we haven't a **Red Hat** subscription or simply when we haven't Internet access.
