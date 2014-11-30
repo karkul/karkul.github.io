@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Karkul's Memories
-tagline:          Just another stupid karkul's blog
+title:            Raymond's Blog
+tagline:          A simple technical blog to keep my findings
 url:              http://karkul.github.io
 paginate:         1
 baseurl:          /
@@ -13,4 +13,6 @@ author:
   url:            https://twitter.com/karkull
   email:          karkul@gmail.com
 
-jekyllurl:        http://jekyllrb.com
+pages_list:
+    About:        '/about'
+    Archive:      '/archive'

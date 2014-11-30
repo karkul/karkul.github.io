@@ -7,22 +7,28 @@
 
     <div class="container content">
       <header class="masthead">
+        <div id="nav">
+          {% for page in site.pages_list %}
+            <a href="{{ page[1]  }}"> {{ page[0] }} </a>
+          {% endfor %}
+        </div>
+
         <h2 class="masthead-title">
           <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
         </h2>
-        <small>{{ site.tagline }}</small>
+        <small>{{ site.tagline }}</small>        
       </header>
 
       <main>
         {{ content }}
       </main>
-      
+
       <div id="comments">
         {% include comments.html %}
       </div>
 
       {% include footer.html %}
     </div>
-
+    {% include analytics.html %}
   </body>
 </html>

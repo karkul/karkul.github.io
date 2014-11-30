@@ -31,6 +31,11 @@ body {
   padding: 0;
 }
 
+header small {
+  color: #999;
+  font-size: 85%;
+}
+
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -70,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #323232;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -119,7 +124,7 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #dedede;
   border-bottom: 1px solid #fff;
 }
 
@@ -135,16 +140,17 @@ abbr[title] {
 }
 
 /* Code */
-code,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  padding: .1em .15em;
+  color: #525252;
+  font-size: 90%;
+  border-radius: 3px;
+  border: 1px #e4e7eA solid;
+}
+
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
-}
-code {
-  padding: .25em .5em;
-  color: #333;
-  border-radius: 3px;
-}
-pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -158,12 +164,7 @@ pre {
   background-color: #e8e8e8;
   border: 1px #dedede solid;
 }
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
+
 
 /* Pygments via Jekyll */
 .highlight {
@@ -300,7 +301,7 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .masthead-title {
   margin-top: 0;
@@ -310,12 +311,18 @@ tbody tr:nth-child(odd) th {
 .masthead-title a {
   color: #505050;
 }
-.masthead-title small {
+.masthead-titledes small {
   font-size: 85%;
   font-weight: 400;
-  color: #999;
+  color: #bcbcbc;
 }
 
+#nav a {
+  color: #555;
+  font-size: 1rem;
+  width: 80px;
+  float: right;
+}
 
 /*
  * Posts and pages
