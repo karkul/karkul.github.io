@@ -1,14 +1,23 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-<p class="message">
-  Hey there! This another attempt to have my own web blog to store my daily notes.
-</p>
+![Me!]({{ baseurl }}/public/img/karkul.jpg)
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+**System Administrator & Software Developer Engineer**
 
-This template is based on [Poole](https://github.com/poole).
+Hello, my name is **Ram&oacute;n Morales** from Mexico and this is a new attempt to have a place where store my daily notes as Sysadmin hopping they can be useful for someone else to learn or solve a concern related with one of the topics mentioned on it.
 
-Thanks for reading!
+Currently I'm working in an important **Openstack** project and I'm trying to keep all the knowledge acquired during its implementation.
+
+<blockquote>
+I made this because I really believe that the knowledge is to be shared, if not it simply will lose.
+</blockquote>
+
+Also you can find me on [Linkedin](https://mx.linkedin.com/in/rmoralesl) if you want to know more about my career path.
+
+Well thanks for reading!
+
+-----
+<small>*Note: This is a personal blog, The content of this blog, ideas and things said here do not represent the position of my actual employer.*</small>
