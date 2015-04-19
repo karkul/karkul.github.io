@@ -44,11 +44,11 @@ Now we are ready to create our new local repository.
 
 <pre> # cp /mnt/repodata/*comps*.xml repodata/comps.xml </pre>
 
-<pre># create -g repodata/comps.xml . </pre>
+<pre># createrepo -g repodata/comps.xml . </pre>
 
 **Setup your local repo file**
 
-Create a file called <code>/etc/yum.repo.d/rhel65-local.repo</code> and add the follow lines and save it:
+Create a file called <code>/etc/yum.repos.d/rhel65-local.repo</code> and add the follow lines and save it:
 
 <pre>
  [rhel65_x64-local]
