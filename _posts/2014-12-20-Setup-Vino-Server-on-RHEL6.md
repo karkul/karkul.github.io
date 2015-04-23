@@ -15,7 +15,7 @@ If you are trying to run VINO in a without X environment installed, the first st
 
 You should follow these steps if you are going to enable the graphical environment.
 
-<pre># yum install -y "X Window Manager" Desktop</pre>
+<pre># yum groupinstall -y "X Window Manager" Desktop</pre>
 
 Edit the file <code>/etc/inittab</code> and change the values as follow
 <pre>
